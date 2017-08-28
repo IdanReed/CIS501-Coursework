@@ -1,0 +1,1 @@
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub-Exercise\02-Intro-SoftwareArch-Console\bin\Debug\Intro_SoftwareArch_Console.exe.config

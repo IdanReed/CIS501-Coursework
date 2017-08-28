@@ -1,0 +1,27 @@
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub-Exercise\02-Intro-SoftwareArch-Console\bin\Debug\Intro_SoftwareArch_Console.exe.config
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub-Exercise\02-Intro-SoftwareArch-Console\bin\Debug\Intro_SoftwareArch_Console.exe
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub-Exercise\02-Intro-SoftwareArch-Console\bin\Debug\Intro_SoftwareArch_Console.pdb
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub-Exercise\02-Intro-SoftwareArch-Console\obj\Debug\01-Intro-VS-GitHub.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub-Exercise\02-Intro-SoftwareArch-Console\obj\Debug\Intro_SoftwareArch_Console.exe
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub-Exercise\02-Intro-SoftwareArch-Console\obj\Debug\Intro_SoftwareArch_Console.pdb
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub\02-Intro-SoftwareArch-Console\bin\Debug\Intro_SoftwareArch_Console.exe.config
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub\02-Intro-SoftwareArch-Console\obj\Debug\Intro_SoftwareArch_Console.exe
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub\02-Intro-SoftwareArch-Console\obj\Debug\Intro_SoftwareArch_Console.pdb
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub\02-Intro-SoftwareArch-Console\bin\Debug\Intro_SoftwareArch_Console.exe
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub\02-Intro-SoftwareArch-Console\bin\Debug\Intro_SoftwareArch_Console.pdb
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GiyHub\02-Intro-SoftwareArch-Console\obj\Debug\01-Intro-VS-GitHub.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GitHub\02-Intro-SoftwareArch-Console\bin\Debug\Intro_SoftwareArch_Console.exe.config
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GitHub\02-Intro-SoftwareArch-Console\obj\Debug\Intro_SoftwareArch_Console.exe
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GitHub\02-Intro-SoftwareArch-Console\obj\Debug\Intro_SoftwareArch_Console.pdb
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GitHub\01-Intro-VS-GitHub\bin\Debug\Intro_SoftwareArch_Console.exe.config
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GitHub\01-Intro-VS-GitHub\obj\Debug\Intro_SoftwareArch_Console.exe
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GitHub\01-Intro-VS-GitHub\obj\Debug\Intro_SoftwareArch_Console.pdb
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GitHub\01-Intro-VS-GitHub\bin\Debug\Intro_SoftwareArch_Console.exe
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GitHub\01-Intro-VS-GitHub\bin\Debug\Intro_SoftwareArch_Console.pdb
+\\vmware-host\Shared Folders\Documents\0 Spring 2017\CIS501\1 Labs\01-Intro-VS-GitHub\01-Intro-VS-GitHub\01-Intro-VS-GitHub\obj\Debug\01-Intro-VS-GitHub.csprojResolveAssemblyReference.cache
+U:\501GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\bin\Debug\Intro_SoftwareArch_Console.exe.config
+U:\501GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\obj\Debug\Intro_SoftwareArch_Console.exe
+U:\501GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\obj\Debug\Intro_SoftwareArch_Console.pdb
+U:\501GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\obj\Debug\01-Intro-VS-GitHub.csprojResolveAssemblyReference.cache
+U:\501GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\bin\Debug\Intro_SoftwareArch_Console.exe
+U:\501GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\bin\Debug\Intro_SoftwareArch_Console.pdb
