@@ -1,0 +1,1 @@
+U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\bin\Debug\Intro_SoftwareArch_GUI.exe.config

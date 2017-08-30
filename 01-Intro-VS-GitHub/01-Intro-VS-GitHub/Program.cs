@@ -13,8 +13,6 @@ namespace Intro_VS_GitHub
         // so the output be for example: Hello Jorge, welcome to CIS501!
         static void Main(string[] args)
         {
-
-
             Console.Write("Hello World!");
             // retain command window till user presses Enter
             Console.ReadLine();
