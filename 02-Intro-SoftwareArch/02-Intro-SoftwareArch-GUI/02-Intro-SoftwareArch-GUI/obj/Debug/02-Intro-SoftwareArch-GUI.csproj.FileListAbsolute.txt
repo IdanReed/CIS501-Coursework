@@ -1,1 +1,9 @@
 U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\bin\Debug\Intro_SoftwareArch_GUI.exe.config
+U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\bin\Debug\Intro_SoftwareArch_GUI.exe
+U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\bin\Debug\Intro_SoftwareArch_GUI.pdb
+U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\02-Intro-SoftwareArch-GUI.csprojResolveAssemblyReference.cache
+U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\Intro_SoftwareArch_GUI.Form1.resources
+U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\Intro_SoftwareArch_GUI.Properties.Resources.resources
+U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\02-Intro-SoftwareArch-GUI.csproj.GenerateResource.Cache
+U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\Intro_SoftwareArch_GUI.exe
+U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\Intro_SoftwareArch_GUI.pdb
