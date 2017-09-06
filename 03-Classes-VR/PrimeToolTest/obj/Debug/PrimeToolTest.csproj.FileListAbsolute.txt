@@ -1,0 +1,11 @@
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\bin\Debug\PrimeToolTest.dll
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\bin\Debug\PrimeToolTest.pdb
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\bin\Debug\PrimeTool.exe
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\bin\Debug\PrimeTool.pdb
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\obj\Debug\PrimeToolTest.csprojResolveAssemblyReference.cache
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\obj\Debug\PrimeToolTest.dll
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\obj\Debug\PrimeToolTest.pdb
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\bin\Debug\PrimeToolTest.dll.CodeAnalysisLog.xml
+U:\501GitRepo\03-Classes-VR\PrimeToolTest\bin\Debug\PrimeToolTest.dll.lastcodeanalysissucceeded

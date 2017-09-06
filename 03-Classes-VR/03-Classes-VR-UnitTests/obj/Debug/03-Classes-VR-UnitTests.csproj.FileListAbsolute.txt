@@ -1,0 +1,11 @@
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\bin\Debug\Classes_VR_UnitTests.dll
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\bin\Debug\Classes_VR_UnitTests.pdb
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\bin\Debug\Classes_VR_CardConcepts.dll
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\bin\Debug\Classes_VR_CardConcepts.pdb
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\obj\Debug\03-Classes-VR-UnitTests.csprojResolveAssemblyReference.cache
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\obj\Debug\Classes_VR_UnitTests.dll
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\obj\Debug\Classes_VR_UnitTests.pdb
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\bin\Debug\Classes_VR_UnitTests.dll.CodeAnalysisLog.xml
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-UnitTests\bin\Debug\Classes_VR_UnitTests.dll.lastcodeanalysissucceeded

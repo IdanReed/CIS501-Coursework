@@ -1,0 +1,8 @@
+U:\501GitRepo\03-Classes-VR\PrimeTool\bin\Debug\PrimeTool.exe.config
+U:\501GitRepo\03-Classes-VR\PrimeTool\bin\Debug\PrimeTool.exe
+U:\501GitRepo\03-Classes-VR\PrimeTool\bin\Debug\PrimeTool.pdb
+U:\501GitRepo\03-Classes-VR\PrimeTool\obj\Debug\PrimeTool.csprojResolveAssemblyReference.cache
+U:\501GitRepo\03-Classes-VR\PrimeTool\obj\Debug\PrimeTool.exe
+U:\501GitRepo\03-Classes-VR\PrimeTool\obj\Debug\PrimeTool.pdb
+U:\501GitRepo\03-Classes-VR\PrimeTool\bin\Debug\PrimeTool.exe.CodeAnalysisLog.xml
+U:\501GitRepo\03-Classes-VR\PrimeTool\bin\Debug\PrimeTool.exe.lastcodeanalysissucceeded

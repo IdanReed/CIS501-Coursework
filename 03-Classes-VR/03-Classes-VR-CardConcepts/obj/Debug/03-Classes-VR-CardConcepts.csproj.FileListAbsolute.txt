@@ -1,0 +1,6 @@
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-CardConcepts\bin\Debug\Classes_VR_CardConcepts.dll
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-CardConcepts\bin\Debug\Classes_VR_CardConcepts.pdb
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-CardConcepts\obj\Debug\Classes_VR_CardConcepts.dll
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-CardConcepts\obj\Debug\Classes_VR_CardConcepts.pdb
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-CardConcepts\bin\Debug\Classes_VR_CardConcepts.dll.CodeAnalysisLog.xml
+U:\501GitRepo\03-Classes-VR\03-Classes-VR-CardConcepts\bin\Debug\Classes_VR_CardConcepts.dll.lastcodeanalysissucceeded
