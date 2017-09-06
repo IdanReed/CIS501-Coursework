@@ -18,7 +18,6 @@ namespace Intro_SoftwareArch_GUI
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
-            MessageBox.Show("Someone killed my form!");
 
         }
     }

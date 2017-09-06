@@ -7,3 +7,13 @@ U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareA
 U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\02-Intro-SoftwareArch-GUI.csproj.GenerateResource.Cache
 U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\Intro_SoftwareArch_GUI.exe
 U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\Intro_SoftwareArch_GUI.pdb
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\bin\Debug\Intro_SoftwareArch_GUI.exe.config
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\bin\Debug\Intro_SoftwareArch_GUI.exe
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\bin\Debug\Intro_SoftwareArch_GUI.pdb
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\02-Intro-SoftwareArch-GUI.csprojResolveAssemblyReference.cache
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\Intro_SoftwareArch_GUI.Form1.resources
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\Intro_SoftwareArch_GUI.Properties.Resources.resources
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\02-Intro-SoftwareArch-GUI.csproj.GenerateResource.Cache
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\02-Intro-SoftwareArch-GUI.csproj.CoreCompileInputs.cache
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\Intro_SoftwareArch_GUI.exe
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-GUI\02-Intro-SoftwareArch-GUI\obj\Debug\Intro_SoftwareArch_GUI.pdb
