@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="26b832e8-6452-4075-8a26-ce843b4beeed" name="cardconcepts" linkedPackageId="029346ce-88b3-42dc-8bd0-7f1254455174" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="96caa45c-6867-47b9-a1da-08efd97b14ce">
+      <elementDefinition Id="210aa3a6-20c0-47d5-a0af-79ea00f9970f" />
+      <body>To Do:
+1. Finish class Deck
+2. Define class Hand
+3. Define enumeration Count
+4. Attach dependencies
+5. Generate code (right-click on diagram and select "Generate Code"; you need to select "Yes" when asked for code template)
+6. Look at the generated code and adjust it.
+</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b88a36df-f96d-414d-866a-d33a8b29407d" name="Card" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1b09cd53-8df6-4306-8f90-baae50a19ecb" />
+        <suppliersInternal>
+          <dependency Id="9db3ebb4-506d-41a2-8fb5-480f1cdba39b">
+            <enumerationMoniker Id="f30affd5-bcfd-484f-a30b-37124f5c5d01" LastKnownName="Suit" />
+            <elementDefinition Id="be17d920-830f-46c4-98ee-1fcc92f6ef95" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="9a56b2ab-5a35-4619-bc22-36673f2cbbed" name="count" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="234a7d90-ed26-48f7-9933-2a1e0ac795e7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="569a77df-ae16-4bf6-9532-ec77443b473d" LastKnownName="Count" />
+            </type_NamedElement>
+          </property>
+          <property Id="fb3d0a0e-ba0e-436e-8533-a152e0fbfce2" name="suit" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="65b0bb99-0a2c-400e-8770-f0a87b93049a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="29cbf19a-e88d-4338-8e5c-374fc1fb12a5" LastKnownName="Suit" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="a685c40b-61cc-4665-af0e-c0c8a6822e88" name="Card" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7ae3c750-1950-4775-b1e8-8144f83d4dce" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e097687b-e778-415f-9732-58c44b95227a" name="a" direction="In" isUnique="false">
+                  <elementDefinition Id="1a5dc201-72f1-48b9-a965-424e66351ede" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="569a77df-ae16-4bf6-9532-ec77443b473d" LastKnownName="Count" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c395fc14-637f-4b71-a150-aa28e9c72b6e" name="b" direction="In" isUnique="false">
+                  <elementDefinition Id="a66081a0-b823-444a-af3a-d405f7291286" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="29cbf19a-e88d-4338-8e5c-374fc1fb12a5" LastKnownName="Suit" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="501dcc83-6473-4cd5-8326-6af0f9b5c944" name="BJvalue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="28c67679-07f8-4b5d-a633-a356610038c1" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="88f71a65-d369-4203-bc01-8fac95e911cb" direction="Return" isUnique="false">
+                  <elementDefinition Id="30af0923-0e34-4bda-b91c-c8d51d57e7a8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f8ef6aef-6a23-44be-9ecd-23eaeb7d0cae" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="32754b66-506d-49c5-b687-f6ac5e936ef6" name="ToString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="318ba27c-6aa2-474c-aa85-728c39c60dfa" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5886c6b6-6717-49db-9cb7-a3629f00ec1c" direction="Return" isUnique="false">
+                  <elementDefinition Id="4a99b33e-1fe5-4737-b27d-01bb348777c8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="504e9dd6-eb06-440d-a492-3138ae0d00fc" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="569a77df-ae16-4bf6-9532-ec77443b473d" name="Count" isAbstract="false" isLeaf="false" cachedFullName="Count">
+        <elementDefinition Id="561bed06-8c08-4c34-a054-f0f800d15719" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="29cbf19a-e88d-4338-8e5c-374fc1fb12a5" name="Suit" isAbstract="false" isLeaf="false" cachedFullName="Suit">
+        <elementDefinition Id="1591ff3b-7ec6-4c24-81cc-d4e7b6ec6dc1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f8ef6aef-6a23-44be-9ecd-23eaeb7d0cae" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="504e9dd6-eb06-440d-a492-3138ae0d00fc" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="f30affd5-bcfd-484f-a30b-37124f5c5d01" name="Suit" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="56e8132e-82cf-4a9d-b46f-07ec0c90693c" />
+        <ownedLiterals>
+          <enumerationLiteral Id="7812caf6-3353-4c9f-84c4-8bc5a57b3b96" name="Spades">
+            <elementDefinition Id="b3603bae-0afb-4e45-8a49-44b59993bd67" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="2419c3e0-2f2c-42ef-9787-6e99fde8064d" name="Hearts">
+            <elementDefinition Id="a5f03641-7669-44fc-a871-23beaa089a2c" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="db6ce05a-c2de-4caf-9df7-8ece795ac707" name="Diamonds">
+            <elementDefinition Id="eb121bf8-ff09-4e05-8d63-0997db8f08a2" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="aaf561e7-4914-4d67-8662-34ef096fc15f" name="Clubs">
+            <elementDefinition Id="90b93c81-4935-401f-a406-49b7ee1e9f27" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fc61c6c0-a0d2-46a0-ac1f-e7b69670ad15" name="Deck" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0dbb1a4a-b97a-4de6-88ff-aaadd608dcd7" />
+        <targetEnds>
+          <association Id="d202ab4e-d76c-4dc4-b463-c86632b3a05f" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b88a36df-f96d-414d-866a-d33a8b29407d" LastKnownName="Card" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="871a8e54-a715-4b21-8cf1-6933258823bc" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="ab95d5bd-8b9c-43c2-b684-796c90097349" name="Lower" value="0">
+                      <elementDefinition Id="349bb00c-6306-4fc4-b082-655849e753c5" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="fac907a1-94d9-49a4-8522-44f1fcd58cb9" name="Upper" value="1">
+                      <elementDefinition Id="f522959b-7f39-46f4-a3dd-03f8c462e6bd" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="36558d3c-7dcd-4b21-8ff9-5c32ecd2b5a7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d6b53279-8a43-4b98-a2d6-d8063d9f7050" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="6f8eea1b-a376-4d1a-8fc9-588d16bb7454" name="Lower" value="*">
+                      <elementDefinition Id="8a5bb808-519f-46a8-ab9a-09e9663808d9" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="d501f2dc-d3cb-4c38-92f2-4a3834e74d30" name="Upper" value="*">
+                      <elementDefinition Id="9b1b2ae7-d01a-4eaa-9911-6111e59445c3" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="1fd2527e-a069-43e0-b20f-93c3d8b0e03a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="334a1ba1-74a5-4459-86de-ed442fe093a9" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="1d486313-8bb3-4f07-94cc-5fb567a12ee5" name="d" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bb263416-8385-4531-b602-8fd5512730d6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cfe3a36e-5470-4185-8065-08c7fcfbe398" LastKnownName="List&lt;Card&gt;" />
+            </type_NamedElement>
+          </property>
+          <property Id="9cfe1a67-1c0d-4c4d-8d49-500bd4507e5e" name="r" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="583da173-d254-4df2-a805-a70871d6af37" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="16cf5c6a-4591-4628-a29d-7529a5bcda78" LastKnownName="Random" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="cfe3a36e-5470-4185-8065-08c7fcfbe398" name="List&lt;Card&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Card&gt;">
+        <elementDefinition Id="7cc95602-2736-42b4-a06d-8ea0463c1283" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="16cf5c6a-4591-4628-a29d-7529a5bcda78" name="Random" isAbstract="false" isLeaf="false" cachedFullName="Random">
+        <elementDefinition Id="f4cf002c-d62a-4fc3-9a23-ae1befa4b8d3" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="029346ce-88b3-42dc-8bd0-7f1254455174" name="05-Class-Diagram">
+    <elementDefinition Id="13b552d9-23d5-4d7c-943e-8551eca08ac1" />
+    <profileInstances>
+      <packageHasProfileInstances Id="48979cbb-0687-49f6-8609-dcd01f0c82f1">
+        <profileInstance Id="88ec4e95-b70a-4218-bc1c-dc9d4f67cb27" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3e4ebb11-f5d3-431a-98f5-fadf8403bfce">
+        <profileInstance Id="851319c4-e59f-43ed-b460-14f2c3e26593" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
