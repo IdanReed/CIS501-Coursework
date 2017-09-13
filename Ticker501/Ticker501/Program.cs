@@ -163,6 +163,22 @@ namespace Ticker501
             }
             return -1;
         }
+        static int printList(List<Stock> list)
+        {
+            int avgWidth = 0;
+            int count = 0;
+            foreach(Stock s in list)
+            {
+                avgWidth += s.abbv.Length;
+                count++;
+            }
+            avgWidth = (int) (((double) avgWidth) / ((double) count));
+
+            foreach (string s in list)
+            {
+                Console.WriteLine(s);
+            }
+        }
     }
     class SomethingBad: Exception
     {
