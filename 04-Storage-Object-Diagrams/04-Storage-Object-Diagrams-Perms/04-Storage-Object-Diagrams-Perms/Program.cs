@@ -38,8 +38,10 @@ namespace Storage_Object_Diagrams_Perms
                         foreach (string p in thePerms) { Console.Write(p + " "); }
                     }
                 }
-
-                Console.WriteLine();    // ***** insert a breakpoint at this line.
+                var settings = new JsonSerializerSettings() { ContractResolver = new CustomJsonContractResolver() };
+                var json = JsonConvert.SerializeObject(d, settings);
+                
+                Console.WriteLine(json);    // ***** insert a brkpoint at this line.
             }
         }
     }
