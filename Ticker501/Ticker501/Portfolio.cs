@@ -10,6 +10,11 @@ namespace Ticker501
     {
         public List<Tuple<Stock, int>> stocksHeld = new List<Tuple<Stock, int>>();
         public List<Tuple<String, Stock, double>> transactionList = new List<Tuple<String, Stock, double>>();
+        /// <summary>
+        /// Takes the sold stock and the quanity and creates the transactions and updates current holdings
+        /// </summary>
+        /// <param name="stock"></param>
+        /// <param name="amount"></param>
         public void SellStock(Stock stock, int amount)
         {
             List<Tuple<Stock, int>> newHeldList = new List<Tuple<Stock, int>>();
@@ -30,6 +35,11 @@ namespace Ticker501
             stocksHeld = newHeldList;
             transactionList.Add(Tuple.Create("Sell", stock, stock.price * amount));
         }
+        /// <summary>
+        /// Takes the bought stock and the quanity and creates the transactions and updates current holdings
+        /// </summary>
+        /// <param name="stock"></param>
+        /// <param name="amount"></param>
         public void BuyStock(Stock stock, int amount)
         {
             bool foundStock = false;

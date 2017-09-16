@@ -26,7 +26,7 @@ namespace Ticker501
             
 
             bool accountSelectionValid;
-            while (true)
+            while (true)//Master loop only exited in one case
             {
                 List<String> accountitems = new List<String>();
                 accountitems.Add("Deposit Funds");
@@ -359,8 +359,6 @@ namespace Ticker501
                         }
                         Console.Clear();
                         double percentChange = ((double)rnd.Next(min, max)) / 100.00;
-                        percentChange = 1;
-                        sign = 1;
                         Console.WriteLine("Percent: " +percentChange*(double)sign+"%");
 
                         List<Stock> newStockList = new List<Stock>();
@@ -426,6 +424,10 @@ namespace Ticker501
                 }
             }
         }
+        /// <summary>
+        /// Reads in a DB file for the stock prices.
+        /// </summary>
+        /// <param name="stockList"></param>
         static void ReadTickerFile(List<Stock> stockList)
         {
             bool valid;
@@ -457,7 +459,12 @@ namespace Ticker501
             } while (!valid);
         }
 
-
+        /// <summary>
+        /// Takes a list of menu options and a header and loops until a correct value is entered
+        /// </summary>
+        /// <param name="menuHeader"></param>
+        /// <param name="menuItems"></param>
+        /// <returns></returns>
         static int MenuSelect(string menuHeader, List<String> menuItems)
         {
             string border = "------------------------------------";
@@ -503,6 +510,11 @@ namespace Ticker501
             }
             return -1;
         }
+
+        /// <summary>
+        /// Just prints a list of stocks nicley
+        /// </summary>
+        /// <param name="list"></param>
         static void PrintList(List<Stock> list)
         {
             int avgWidth = 0;
