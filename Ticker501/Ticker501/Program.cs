@@ -437,7 +437,7 @@ namespace Ticker501
                                     Console.Clear();
                                     Console.Write("Too large, you must sell");
                                     Console.ReadLine();
-                                    withDrawlValid = false;
+                                    
                                 }
                                 else
                                 {
