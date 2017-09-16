@@ -8,28 +8,47 @@ namespace Ticker501
 {
     class Portfolio
     {
-        public double cashBal;
         public List<Tuple<Stock, int>> stocksHeld = new List<Tuple<Stock, int>>();
-
-        public bool SellStock(Stock Stock, int amount)
+        public List<Tuple<String, Stock, double>> transactionList = new List<Tuple<String, Stock, double>>();
+        public void SellStock(Stock stock, int amount)
         {
-            foreach(Tuple<Stock,int> tuple in stocksHeld)
+            List<Tuple<Stock, int>> newHeldList = new List<Tuple<Stock, int>>();
+
+            foreach (Tuple<Stock,int> tuple in stocksHeld)
             {
-                if (Stock.Equals(tuple.Item1))
+                if (stock.Equals(tuple.Item1))
                 {
-                    if(amount <= tuple.Item2)
-                    {
-                        int newBal = tuple.Item2 - amount;
-                        stocksHeld.Remove(tuple);
-                        if(newBal != 0)
-                        {
-                            stocksHeld.Add(Tuple.Create(Stock, newBal));
-                        }
-                        return true;
-                    }
+                    int quant = tuple.Item2 - amount;
+
+                    newHeldList.Add(Tuple.Create(stock, quant));
                 }
-            } 
-            return false;
+                else
+                {
+                    newHeldList.Add(tuple);
+                }
+            }
+            stocksHeld = newHeldList;
+            transactionList.Add(Tuple.Create("Sell", stock, stock.price * amount));
+        }
+        public void BuyStock(Stock stock, int amount)
+        {
+            bool foundStock = false;
+            foreach(Tuple<Stock, int> tuple in stocksHeld)
+            {
+                if (stock.Equals(tuple.Item1))
+                {
+                    foundStock = true;
+                    int quanity = tuple.Item2 + amount;
+                    stocksHeld.Remove(tuple);
+                    stocksHeld.Add(Tuple.Create(stock, quanity));
+                    
+                }
+            }
+            if (!foundStock)
+            {
+                stocksHeld.Add(Tuple.Create(stock, amount));
+            }
+            transactionList.Add(Tuple.Create("Buy", stock, stock.price * amount));
         }
     }
 }
