@@ -33,6 +33,7 @@ namespace Ticker501
                 accountitems.Add("Portfolios");
                 accountitems.Add("Simulate Price");
                 accountitems.Add("Balance");
+                accountitems.Add("Withdrawl");
                 int accountSelection = MenuSelect("Account Menu", accountitems);
                 
             
@@ -50,7 +51,7 @@ namespace Ticker501
                             {
                                 Console.Write("Deposit amount>: ");
                                 double deposit = Convert.ToInt32(Console.ReadLine());
-                                balance += deposit;
+                                balance += deposit-4.99;
                                 depositBal += deposit; 
                                 Console.Clear();
                                 Console.Write(">New cash balance is " + balance);
@@ -421,6 +422,36 @@ namespace Ticker501
                         Console.WriteLine("Net gain: " + accountValue);
                         Console.ReadLine();
                         break;
+                    case 5://Withdrawl
+                        bool withDrawlValid;
+                        do
+                        {
+                            withDrawlValid = true;
+                            Console.Clear();
+                            Console.Write("Withdrawl amount>: ");
+                            try
+                            {
+                                double withDrawl = Convert.ToDouble(Console.ReadLine());
+                                if(withDrawl > (balance - 4.99))
+                                {
+                                    Console.Clear();
+                                    Console.Write("Too large, you must sell");
+                                    Console.ReadLine();
+                                    withDrawlValid = false;
+                                }
+                                else
+                                {
+                                    balance -= 4.99 + withDrawl;
+                                    depositBal += withDrawl;
+                                }
+                            }
+                            catch (Exception e)
+                            {
+
+                            }
+                        } while (!withDrawlValid);
+                        break;
+                        
                 }
             }
         }
@@ -437,7 +468,7 @@ namespace Ticker501
                 Console.Clear();
                 Console.Write("Path for ticker file: ");
                 string path = Console.ReadLine();
-                path = "C:\\Users\\Idan\\Downloads\\Ticker.txt";
+                //path = "C:\\Users\\Idan\\Downloads\\Ticker.txt";
                 try
                 {
                     String[] lines = System.IO.File.ReadAllLines(path);
