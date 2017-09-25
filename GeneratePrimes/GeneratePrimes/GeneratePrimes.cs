@@ -19,6 +19,12 @@
 /// Copied in solution by Hunter Haufler on 20 Sep 2017
 /// </remark>
 
+/**
+ * It works by eleminating multipules starting at 2 and then by finding the next 'uncrossed' number and eleminating all of it's multiples going up.
+ * Vars don't have discriptive names which would make it more readable
+ * 
+ * R1: Split code into methods. Is easier to adapt to of uses.
+ **/
 using System;
 
 namespace GeneratePrimes

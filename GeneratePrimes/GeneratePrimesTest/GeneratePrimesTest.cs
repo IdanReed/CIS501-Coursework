@@ -25,5 +25,6 @@ namespace GeneratePrimes
             Assert.AreEqual(centArray.Length, 25);
             Assert.AreEqual(centArray[24], 97);
         }
+       
     }
 }
