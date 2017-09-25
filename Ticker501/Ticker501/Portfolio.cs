@@ -10,6 +10,7 @@ namespace Ticker501
     {
         public List<Tuple<Stock, int>> stocksHeld = new List<Tuple<Stock, int>>();
         public List<Tuple<String, Stock, double>> transactionList = new List<Tuple<String, Stock, double>>();
+        double feeSum = 0;
         /// <summary>
         /// Takes the sold stock and the quanity and creates the transactions and updates current holdings
         /// </summary>

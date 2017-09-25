@@ -271,8 +271,11 @@ namespace Ticker501
                                             }
                                         }
                                     }
-                                    Console.WriteLine("This portfolio makes up " + Math.Truncate((thisPortValue/allInvestments)*100)+"% of all investments.");
-                                    Console.WriteLine("Stocks held breakdown: ");
+                                    double percentInvestment = (Math.Truncate((thisPortValue / allInvestments) * 100) / 100)*100;
+                                    if(percentInvestment.Equals(Double.NaN)) { percentInvestment = 0.00; }
+                                    Console.WriteLine(">This portfolio makes up " + percentInvestment + "% of all investments.");
+
+                                    Console.WriteLine(">Stocks held breakdown: ");
                                     double heldValue = 0;
                                     foreach(Tuple<Stock, int> balStocksHeldTuple in selectedPortfolio.stocksHeld)
                                     {
@@ -281,8 +284,8 @@ namespace Ticker501
                                         heldValue += stockValue;
                                         Console.WriteLine("     " + balStocksHeldTuple.Item1.abbv + " - $" + stockValue + " - " + Math.Truncate((stockValue/thisPortValue)*100) + "%");
                                     }
-                                    Console.WriteLine("Transactions: ");
 
+                                    Console.WriteLine(">Transactions: ");
                                     double overallGain = 0;
                                     foreach (Tuple<String, Stock, double> tuple in selectedPortfolio.transactionList)
                                     {
@@ -296,9 +299,10 @@ namespace Ticker501
                                         {
                                             overallGain += tuple.Item3;
                                         }
+                                        overallGain -= 9.99;
                                     }
                                     overallGain += heldValue;
-                                    Console.WriteLine("Overall gain: " + overallGain);
+                                    Console.WriteLine(">Overall gain: " + (Math.Truncate(overallGain * 100) / 100));
 
 
                                     Console.ReadLine();
@@ -313,7 +317,7 @@ namespace Ticker501
                                     balance += -9.99+ delAccountValue;
                                     
                                     porfolios[portfolioSelection-1] = null;
-                                    Console.WriteLine("Cash added to account: " + delAccountValue);
+                                    Console.WriteLine(">Cash added to account: " + delAccountValue);
                                    
                                     Console.ReadLine();
                                     
@@ -397,8 +401,8 @@ namespace Ticker501
                         break;
                     case 4://Balance
                         Console.Clear();
-                        Console.WriteLine("Cash balance: "+ balance);
-                        Console.WriteLine("Positions balance: " );
+                        Console.WriteLine(">Cash balance: "+ balance);
+                        Console.WriteLine(">Positions balance: " );
                         foreach (Tuple<String, Stock, double> AllTransTuple in transactionList)
                         {
                             
@@ -419,7 +423,7 @@ namespace Ticker501
                             }
                         }
                         double accountValue = accAllInvestments + balance - depositBal;
-                        Console.WriteLine("Net gain: " + accountValue);
+                        Console.WriteLine(">Overall gain: " + Math.Truncate(100 * accountValue) / 100);
                         Console.ReadLine();
                         break;
                     case 5://Withdrawl
@@ -428,7 +432,7 @@ namespace Ticker501
                         {
                             withDrawlValid = true;
                             Console.Clear();
-                            Console.Write("Withdrawl amount>: ");
+                            Console.Write(">Withdrawl amount: ");
                             try
                             {
                                 double withDrawl = Convert.ToDouble(Console.ReadLine());
@@ -442,7 +446,7 @@ namespace Ticker501
                                 else
                                 {
                                     balance -= 4.99 + withDrawl;
-                                    depositBal += withDrawl;
+                                    depositBal -= withDrawl;
                                 }
                             }
                             catch (Exception e)
@@ -466,9 +470,9 @@ namespace Ticker501
             {
                 valid = true;
                 Console.Clear();
-                Console.Write("Path for ticker file: ");
-                string path = Console.ReadLine();
-                //path = "C:\\Users\\Idan\\Downloads\\Ticker.txt";
+                Console.Write(">Loading ticker File ");
+                Console.ReadLine();
+                string path = "Ticker.txt";
                 try
                 {
                     String[] lines = System.IO.File.ReadAllLines(path);
