@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{48EB38EB-D214-4F75-9DDF-36A1A2575620}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{12701BB7-159F-4B9A-BFC6-A3055E5E222A}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PrimeNumbers</RootNamespace>
-    <AssemblyName>PrimeNumbers</AssemblyName>
+    <RootNamespace>R3</RootNamespace>
+    <AssemblyName>R3</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,33 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="GeneratePrimesR3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\GeneratePrimesTest\GeneratePrimesTest.csproj">
-      <Project>{23857428-163f-4558-840c-f551383f3563}</Project>
-      <Name>GeneratePrimesTest</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GeneratePrimes\GeneratePrimes.csproj">
-      <Project>{a868348a-f30a-4ba5-92ab-d239ab34db5f}</Project>
-      <Name>GeneratePrimes</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\R1\R1.csproj">
-      <Project>{ee545cc2-aea7-4336-8cb3-b6b89d7649ce}</Project>
-      <Name>R1</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\R2\R2.csproj">
-      <Project>{6e679406-3895-45a3-a98b-83b699193c71}</Project>
-      <Name>R2</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\R3\R3.csproj">
-      <Project>{12701bb7-159f-4b9a-bfc6-a3055e5e222a}</Project>
-      <Name>R3</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

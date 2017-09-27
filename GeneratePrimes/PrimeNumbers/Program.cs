@@ -9,6 +9,7 @@ namespace PrimeNumbers
 {
     using R1;
     using R2;
+    using R3;
     class Program
     {
         static void Main(string[] args)
@@ -19,7 +20,7 @@ namespace PrimeNumbers
                 Console.WriteLine();
                 Console.WriteLine("Enter a number");
                 int n = Convert.ToInt32(Console.ReadLine());
-                int[] primeNumbers = GeneratePrimesR2.GeneratePrimeNumbers(n);
+                int[] primeNumbers = GeneratePrimesR3.GeneratePrimeNumbers(n);
 
                 StringBuilder s = new StringBuilder();
                 foreach(int p in primeNumbers)
