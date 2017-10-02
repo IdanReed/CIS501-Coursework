@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.625, 8.5" name="delegate">
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.625, 8.625" name="delegate">
   <logicalClassDesignerModelMoniker Id="1dd038c7-b3ab-4e12-be5f-8da1b5452144" />
   <nestedChildShapes>
     <classShape Id="f3b50fd8-8d44-43d9-a489-744b106a92a0" absoluteBounds="1.25, 1.125, 2.125, 1.0624999801317849" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
@@ -84,7 +84,7 @@
         <classShapeMoniker Id="c1a84b5c-10ca-451f-9fc8-1d4973f6fd0a" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(6.9062525 : 3.125); (6.9062525 : 2.6562475); (7.875 : 2.6562475)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="0..1" targetMultiplicity="*">
+    <associationConnector edgePoints="[(6.9062525 : 3.125); (6.9062525 : 2.6562475); (7.875 : 2.6562475)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="0..1" targetMultiplicity="*">
       <associationMoniker Id="fb3da8bf-730b-45f1-af8f-39bf1009a967" />
       <relativeChildShapes />
       <nodes>
@@ -164,5 +164,9 @@
         <interfaceShapeMoniker Id="d5a61f42-9fae-4563-a1de-a9be728cb941" />
       </nodes>
     </commentConnector>
+    <commentShape Id="a4d00217-fca8-4de6-a94a-33c918445318" absoluteBounds="7.75, 4.5, 2.25, 3.875" customColor="251, 247, 200">
+      <commentMoniker Id="34aa603f-7eb0-497e-9783-2c4504958796" />
+      <relativeChildShapes />
+    </commentShape>
   </nestedChildShapes>
 </logicalClassDesignerDiagram>

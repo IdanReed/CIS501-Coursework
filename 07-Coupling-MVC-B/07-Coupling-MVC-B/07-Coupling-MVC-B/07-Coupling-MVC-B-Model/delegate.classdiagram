@@ -37,6 +37,20 @@ SF H C D         (don't list Observer)
         <interfaceMoniker Id="265e0686-4599-4944-a52f-7faa15d384e8" LastKnownName="Observer" />
       </annotatedElements>
     </comment>
+    <comment Id="34aa603f-7eb0-497e-9783-2c4504958796">
+      <elementDefinition Id="c0468dcf-7b65-4eb3-97e8-c6905ebf987c" />
+      <body>14/6=
+
+Subassemblies:
+|GC D H|
+|SF|
+|C D H MF GC|
+
+|SF| |GC D H|
+|C D H MF GC| |GC D H|
+
+|C D H MF GC||SF|</body>
+    </comment>
   </ownedCommentsInternal>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>

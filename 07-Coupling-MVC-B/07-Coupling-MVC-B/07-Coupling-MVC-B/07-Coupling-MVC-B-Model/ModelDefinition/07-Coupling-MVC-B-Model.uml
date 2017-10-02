@@ -91,6 +91,22 @@ SF H C D         (don't list Observer)
           LastKnownLocation="07-Coupling-MVC-B-Model.uml" />
       </annotatedElements>
     </comment>
+    <comment
+      Id="28296506-ea3f-40b2-8ec4-0a4d59f83a18" />
+    <comment
+      Id="c0468dcf-7b65-4eb3-97e8-c6905ebf987c">
+      <body>14/6=
+
+Subassemblies:
+|GC D H|
+|SF|
+|C D H MF GC|
+
+|SF| |GC D H|
+|C D H MF GC| |GC D H|
+
+|C D H MF GC||SF|</body>
+    </comment>
   </ownedCommentsInternal>
   <profileInstances>
     <packageHasProfileInstances

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="25098d48-44e9-4e60-a0df-f03a2ea6ca9d" name="controller" linkedPackageId="fd413e53-ff1b-4e2e-b1e6-8a99a65fff97" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="25098d48-44e9-4e60-a0df-f03a2ea6ca9d" name="controller" linkedPackageId="fd413e53-ff1b-4e2e-b1e6-8a99a65fff97" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <ownedCommentsInternal>
     <comment Id="f29dac48-59fe-42e7-850a-0e7ec2716266">
       <elementDefinition Id="d463d984-3394-4bec-b22b-9b2c20b87442" />
@@ -24,6 +24,9 @@ What is the coupling ratio,  C(controller) ?
 
 Because the MainForm still owns the ScoreForm and still calls GameController directly, the number of subassemblies is limited. 
 </body>
+    </comment>
+    <comment Id="13571248-c92e-436c-bd05-1610e24c9fde">
+      <elementDefinition Id="28296506-ea3f-40b2-8ec4-0a4d59f83a18" />
     </comment>
   </ownedCommentsInternal>
   <packagedElements>
