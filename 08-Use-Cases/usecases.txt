@@ -1,0 +1,14 @@
+Press 42
+	Display 42 on screen and hold in code as curVal	
+Press +
+	Set add in code as curOp
+Press 3
+	Clear screen display 3, set lastVal to curVal and curVal to 3
+Press =
+	Clear screen, set lastVal to curVal and curVal to 45 (value from alu), display 45
+Press /
+	Set divide in code as curOp
+press 2
+	Clear screen display 2, set lastVal to curVal and curVal to 2
+press =
+	Clear screen, set lastVal to curVal and curVal to 22.5 (value from alu), display 22.5
