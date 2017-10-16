@@ -15,7 +15,7 @@ namespace Multi_Threaded_Race
         // returns one token if available
         public bool getToken()
         {
-            //lock (this) {   // enforce mutual exclusion on _this_ object
+            lock (this) {   // enforce mutual exclusion on _this_ object
             bool outcome = false;
             if (tokens > 0)
             {
@@ -23,7 +23,7 @@ namespace Multi_Threaded_Race
                 outcome = true;
             }
             return outcome;
-            //}  // end lock
+            }  // end lock
         }
     }
 
@@ -40,6 +40,7 @@ namespace Multi_Threaded_Race
                 new Thread(T2).Start();  // start thread to execute method T2
                 Console.WriteLine("initialized");
                 Console.ReadLine();
+                num++;
             }
             // main thread dies here.
         }
