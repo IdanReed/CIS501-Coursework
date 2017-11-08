@@ -3,3 +3,6 @@ U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-Console\02-Intro-Softw
 U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-Console\02-Intro-SoftwareArch-Console\bin\Debug\Intro_SoftwareArch_Console.pdb
 U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-Console\02-Intro-SoftwareArch-Console\obj\Debug\Intro_SoftwareArch_Console.exe
 U:\501GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-Console\02-Intro-SoftwareArch-Console\obj\Debug\Intro_SoftwareArch_Console.pdb
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-Console\02-Intro-SoftwareArch-Console\bin\Debug\Intro_SoftwareArch_Console.exe.config
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-Console\02-Intro-SoftwareArch-Console\obj\Debug\Intro_SoftwareArch_Console.exe
+C:\Users\Idan\Documents\GitRepo\02-Intro-SoftwareArch\02-Intro-SoftwareArch-Console\02-Intro-SoftwareArch-Console\obj\Debug\Intro_SoftwareArch_Console.pdb
