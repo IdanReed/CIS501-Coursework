@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="6f075840-0c6c-42e2-80ca-746348a2ab46" name="calculator" linkedPackageId="facb838e-5dbc-4e12-aeca-4513c897d051" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="f68caf2e-db1e-404b-b2c0-a5d1043e8f3e">
+      <profileInstance Id="60df9a8c-677a-4fa8-b199-ff05f90ec223" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1b7a65f4-771b-433f-af0f-e9353968186a">
+      <profileInstance Id="05ca174b-5147-4378-a93b-1b73c1fb89a1" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b5e0b47c-0b39-4ee6-9e22-51e89120e2fd" name="Display" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d1e950a1-3f15-4ea7-bd60-5e138e3609a3" />
+        <ownedOperationsInternal>
+          <operation Id="276fc2be-673f-46ea-a9c4-bf53fdfbbc0c" name="Display" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="398be367-5dc2-4a4c-b5ae-d08235136db0" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b9656904-7c6a-44de-86e5-c49bcd954973" name="DataReg" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2b70a790-b762-4eaf-b9fe-e526fe170fc0" />
+        <targetEnds>
+          <association Id="89378b7d-f0c8-4a26-aacb-8e7ccfa44346" isDerived="false" sourceEndRoleName="DataReg" targetEndRoleName="Display" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b5e0b47c-0b39-4ee6-9e22-51e89120e2fd" LastKnownName="Display" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="749cf003-acc0-4882-a04d-0f678ceebe59" name="DataReg" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9760f371-bbf1-4982-b4f6-26456c689f3c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7994b870-b43d-4df2-8bcb-fe2c7de6acfd" name="Display" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="081ffc7e-53fb-4e58-a184-d3c7f4e63f9b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4227aa0b-93a6-48b7-bcbd-f86d053d15bf" />
+          </association>
+          <association Id="c7989408-a58d-4a00-a8f1-7b274d37e6fa" isDerived="false" sourceEndRoleName="DataReg" targetEndRoleName="ALU" isLeaf="false" isAbstract="false">
+            <classMoniker Id="c7ee5ea0-3ff6-4152-9aff-00b94ffc9e85" LastKnownName="ALU" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2318777b-5390-4eb8-b812-311c223ecf6f" name="DataReg" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9b00c5c7-80f3-4946-96b7-d61e87f4dda8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="24ef0b5a-fc60-44b8-b5fe-67172d4618df" name="ALU" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="62758abe-dad2-4a89-a5e0-3509653ce6e2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e9ae4190-c3ef-4695-a749-27b321d5b295" />
+          </association>
+          <association Id="974b27d9-7cf9-407f-b61e-107a775b10c2" isDerived="false" sourceEndRoleName="DataReg" targetEndRoleName="Accumulator" isLeaf="false" isAbstract="false">
+            <classMoniker Id="db84407e-5bd9-41a1-94ce-6493c61384a6" LastKnownName="Accumulator" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="baab90e0-4f63-400d-876c-275396a75079" name="DataReg" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0b6e82c8-83c0-40f4-a6f5-5794baa2c487" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0c5e41e1-706b-4807-87d9-2ebf58a5b3da" name="Accumulator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8a5c93e5-a666-428b-9995-5a1db9486b15" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4b51d8ef-4091-4484-9ac4-54706366e0ac" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="028e021e-bddd-4684-93b1-3ef1ee07ee83" name="LastVal" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="37d4a48b-3d53-4cf7-b4dc-6681b90951de" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="414735a8-c6de-4d31-a6b1-324e44023458" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="0877e9fd-f324-4cf7-97f1-e1bff65c9d76" name="CurVal" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="64f77cf1-1fbe-40fb-9862-21b94de63abf" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="414735a8-c6de-4d31-a6b1-324e44023458" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="50c16347-ca05-4863-8608-f646894ce806" name="CurOp" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4fd69f82-edcd-4af6-87e5-8dc1990912e6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f0bbfbab-f427-40e4-822b-10e4d9192829" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="9e644b62-6683-4eb0-90bf-b5b85ce48bbe" name="Pressed" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b204fd6f-6da5-4950-8010-9332a4ea77ff" />
+          </operation>
+          <operation Id="9eac19cb-c5ff-4627-97b2-9df4e70d9448" name="SetCurOP" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5b4273c5-d107-4f4d-bf4f-11a17d0dbf0d" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="db84407e-5bd9-41a1-94ce-6493c61384a6" name="Accumulator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ce31cf71-7c70-4706-b919-02ddcff6fe61" />
+        <targetEnds>
+          <association Id="c068bdbd-d55a-4e4a-b68f-1843efe0c0e5" isDerived="false" sourceEndRoleName="Accumulator" targetEndRoleName="ALU" isLeaf="false" isAbstract="false">
+            <classMoniker Id="c7ee5ea0-3ff6-4152-9aff-00b94ffc9e85" LastKnownName="ALU" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="63d9b694-3880-444a-81dc-5ca25f32cbed" name="Accumulator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="43af3aa8-fd39-4436-b8fd-faac9649e92c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b5d6522f-ef75-4f03-b084-42e1eb98d8f1" name="ALU" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ff2c88b0-b8cc-4610-900d-e46916385be4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="be2f40ff-4c00-46a6-925f-8d36f9c4d543" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="05beeeda-f647-4100-9641-413ead21a895" name="GetLastVal" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fede83d2-55b9-484d-9dbb-e23a8fe0e0d2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="236fe09b-8bb7-44c9-bebd-cc5079321c28" direction="Return" isUnique="false">
+                  <elementDefinition Id="d66cd725-6eff-4e1a-8da0-21eb701e7c80" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="414735a8-c6de-4d31-a6b1-324e44023458" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="b3b65d87-83ac-4d5f-bd7f-3c9044cbc17d" name="GetOP" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="75972d46-8e4c-4e78-8e31-70d822ce386a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1030ba48-6f3d-44c5-9481-f13540cb47c1" direction="Return" isUnique="false">
+                  <elementDefinition Id="b2e5531f-6277-4908-9a25-47cb4d7106d3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f0bbfbab-f427-40e4-822b-10e4d9192829" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="3ae242eb-ffb5-472e-8fd8-1d7a4fcf4de1" name="GetCurVal" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f8beb0c8-04d4-4e98-83a2-dedd5d523295" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c053aa7c-2c1b-46f2-8bec-d53807972edc" direction="Return" isUnique="false">
+                  <elementDefinition Id="c5d7c266-0c13-46fd-963e-d030cd17fff1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="414735a8-c6de-4d31-a6b1-324e44023458" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c7ee5ea0-3ff6-4152-9aff-00b94ffc9e85" name="ALU" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="016a199b-8f0c-4469-abf2-a6b56d051f20" />
+        <ownedOperationsInternal>
+          <operation Id="03d8f5e1-29dd-49b4-a8fb-31888d89b2da" name="DoMath" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7e0e36fe-aa62-4d4a-956e-00c68592fd04" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6d53c3fb-5c83-4d0a-af12-6b3f2c92c473" direction="Return" isUnique="false">
+                  <elementDefinition Id="fb27351c-f985-41c2-a04a-769085f970ce" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="414735a8-c6de-4d31-a6b1-324e44023458" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="414735a8-c6de-4d31-a6b1-324e44023458" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="91064999-221d-4ca0-a309-09ae4d13db26" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f0bbfbab-f427-40e4-822b-10e4d9192829" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="9f0d6fab-a56e-49e9-bf14-667e4c240a65" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="facb838e-5dbc-4e12-aeca-4513c897d051" name="08-Use-Cases">
+    <elementDefinition Id="16fb9bf8-0682-4a9b-818a-d237f27eedf3" />
+  </package>
+</logicalClassDesignerModel>
