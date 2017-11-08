@@ -25,3 +25,6 @@ U:\501GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\obj\Debug\Intro_SoftwareArch
 U:\501GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\obj\Debug\01-Intro-VS-GitHub.csprojResolveAssemblyReference.cache
 U:\501GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\bin\Debug\Intro_SoftwareArch_Console.exe
 U:\501GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\bin\Debug\Intro_SoftwareArch_Console.pdb
+C:\Users\Idan\Documents\GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\bin\Debug\Intro_SoftwareArch_Console.exe.config
+C:\Users\Idan\Documents\GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\obj\Debug\Intro_SoftwareArch_Console.exe
+C:\Users\Idan\Documents\GitRepo\01-Intro-VS-GitHub\01-Intro-VS-GitHub\obj\Debug\Intro_SoftwareArch_Console.pdb

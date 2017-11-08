@@ -472,7 +472,9 @@ namespace Ticker501
                 Console.Clear();
                 Console.Write(">Loading ticker File ");
                 Console.ReadLine();
+                //If the file isn't loading right change the path to the ticker file location
                 string path = "Ticker.txt";
+
                 try
                 {
                     String[] lines = System.IO.File.ReadAllLines(path);
