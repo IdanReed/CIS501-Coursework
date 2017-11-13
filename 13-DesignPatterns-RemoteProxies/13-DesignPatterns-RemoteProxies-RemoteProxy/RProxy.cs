@@ -14,7 +14,7 @@ namespace DesignPatterns_RemoteProxies_RemoteProxy
     // (ii) Because this demo system isn't finished,  RProxy also holds code for doing
     //   account-balance lookups and account withdrawals.  This will execute slowly.
 
-    public class RProxy : IDB, IAcct
+    public class RProxy : IDB
     { // wow, this one class impersonates *both* the remote database
         //  *and* the account that the ATM is using!  We will fix this....
 
